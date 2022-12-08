@@ -12,7 +12,7 @@ import scipy
 #Get training data from https://huggingface.co/datasets/GonzaloA/fake_news
 
 #CSV path of training data
-csv_to_train = '/Users/aidan/projects/Python/crime/fake_news/train.csv'
+csv_to_train = 'your/path/to/train.csv'
 
 # load the 'title' and 'text' columns from the CSV file into separate Pandas series
 df_title = pd.read_csv(csv_to_train, usecols=['title','label'])
